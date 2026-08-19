@@ -59,7 +59,7 @@ export const projects = [
     name: "IronBook (HFT Matching Engine)",
     role: "Creator",
     detail: "Developed an HFT matching engine achieving ~50ns core latency (20M ops/sec peak) by implementing the LMAX Disruptor pattern with a single-threaded deterministic Sequencer. Implemented a lock-free concurrent pipeline processing 600,000 orders/sec over raw TCP. Achieved 100% state reconstruction with zero data loss using an append-only Write-Ahead Log (WAL).",
-    image: "assets/peerLink.png",
+    image: "assets/IronBook.png",
     techStack: "Java | Spring Boot | TCP Sockets | Next.js",
     github: "https://github.com/haardiksagar/IornBook_Matching_Engine",
   },
