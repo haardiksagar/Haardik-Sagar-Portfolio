@@ -56,6 +56,13 @@ export const previously = [
 
 export const projects = [
   {
+    name: "IronBook (HFT Matching Engine)",
+    role: "Creator",
+    detail: "Developed an HFT matching engine achieving ~50ns core latency (20M ops/sec peak) by implementing the LMAX Disruptor pattern with a single-threaded deterministic Sequencer. Implemented a lock-free concurrent pipeline processing 600,000 orders/sec over raw TCP. Achieved 100% state reconstruction with zero data loss using an append-only Write-Ahead Log (WAL).",
+    techStack: "Java | Spring Boot | TCP Sockets | Next.js",
+    github: "https://github.com/haardiksagar/IronBook",
+  },
+  {
     name: "PeerLink (2025)",
     role: "Creator",
     detail: "A framework-less peer-to-peer backend built from scratch to explore low-level networking, custom HTTP parsing, and concurrent TCP file transfers.",
