@@ -37,7 +37,7 @@ export default function RootLayout({
         <Intro name="haardik." label="Loading" once={false} />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <ParticleWaves />
-          {/* {children} is where Next.js automatically injects your page.tsx conten */}
+          {/* {children} is where Next.js automatically injects your page.tsx content */}
           {children}
         </ThemeProvider>
       </body>
